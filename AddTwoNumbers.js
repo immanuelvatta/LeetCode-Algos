@@ -78,8 +78,14 @@ var addTwoNumbers = function (l1, l2) {
   return result.next;
 };
 
-const l1 = [2,4,3];
-const l2 = [5,6,4];
+// const l1 = [2,4,3];
+// const l2 = [5,6,4];
+
+// const l1 = [0];
+// const l2 = [0];
+
+const l1 = [9,9,9,9,9,9,9];
+const l2 = [9,9,9,9];
 
 const l1LinkedList = arrayToLinkedList(l1);
 const l2LinkedList = arrayToLinkedList(l2);
